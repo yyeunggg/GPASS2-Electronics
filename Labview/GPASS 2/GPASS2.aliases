@@ -5,5 +5,5 @@ My Computer = "172.22.11.1"
 myRIO-1900 = "172.22.11.2"
 
 [NI-cRIO-JSW]
-NI-cRIO-JSW = "169.254.41.44"
+NI-cRIO-JSW = "169.254.125.17"
 
