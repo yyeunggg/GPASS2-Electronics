@@ -1,8 +1,8 @@
 [My Computer]
-My Computer = "172.22.11.1"
+My Computer = "10.58.0.90"
 
 [myRIO-1900]
-myRIO-1900 = "172.22.11.2"
+myRIO-1900 = "10.31.57.219"
 
 [NI-cRIO-JSW]
 NI-cRIO-JSW = "10.2.58.190"
