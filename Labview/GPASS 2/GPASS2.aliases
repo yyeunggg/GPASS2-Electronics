@@ -7,3 +7,6 @@ myRIO-1900 = "10.31.57.219"
 [NI-cRIO-JSW]
 NI-cRIO-JSW = "10.2.58.190"
 
+[RT CompactRIO Target]
+RT CompactRIO Target = "0.0.0.0"
+
