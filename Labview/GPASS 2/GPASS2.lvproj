@@ -2274,7 +2274,7 @@ AddOutputFilter chunkFilter
 </CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9074/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/steve/Dropbox (MIT)/PhD Research/GPASS 2/Electronics/GPASS2-Electronics/Labview/GPASS 2/crio_FPGA_HX711_DMA.vi</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/steve/Dropbox (MIT)/PhD Research/GPASS 2/Electronics/GPASS2-Electronics/Labview/GPASS 2/crio_FPGA_VCA_encoder.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -4966,15 +4966,6 @@ AddOutputFilter chunkFilter
 						<Item Name="nirviIntfOpen_cRIO-9104.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9104/nirviIntfOpen_cRIO-9104.vi"/>
 						<Item Name="nirviIntfClose_cRIO-9104.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9104/nirviIntfClose_cRIO-9104.vi"/>
 					</Item>
-					<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-					</Item>
-					<Item Name="NiRioSrv.dll" Type="Document" URL="NiRioSrv.dll">
-						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-					</Item>
-					<Item Name="subvi_encoder_update.vi" Type="VI" URL="../subvi_encoder_update.vi"/>
-					<Item Name="subvi_dc_motor_pwm.vi" Type="VI" URL="../subvi_dc_motor_pwm.vi"/>
-					<Item Name="subvi_encoder_tick_to_pos.vi" Type="VI" URL="../subvi_encoder_tick_to_pos.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="crio_FPGA_Stepper" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -5476,6 +5467,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="crio_RT_Antagonist_Depre.vi" Type="VI" URL="../crio_RT_Antagonist_Depre.vi"/>
 		<Item Name="crio_RT_Antagonist_New.vi" Type="VI" URL="../crio_RT_Antagonist_New.vi"/>
+		<Item Name="crio_RT_Antagonist_Precision.vi" Type="VI" URL="../crio_RT_Antagonist_Precision.vi"/>
 		<Item Name="crio_RT_HX711.vi" Type="VI" URL="../crio_RT_HX711.vi"/>
 		<Item Name="crio_RT_HX711_DMA.vi" Type="VI" URL="../crio_RT_HX711_DMA.vi"/>
 		<Item Name="crio_RT_LAC.vi" Type="VI" URL="../crio_RT_LAC.vi"/>
