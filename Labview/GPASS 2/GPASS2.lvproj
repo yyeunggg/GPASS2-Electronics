@@ -1835,6 +1835,9 @@ AddOutputFilter chunkFilter
 						<Item Name="IP SPI&amp;I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/IEDriver/SPIandI2C/FPGA/Library/IP SPI&amp;I2C.lvlib"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
+					<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA_Stepper_Control_Main" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -5757,6 +5760,8 @@ AddOutputFilter chunkFilter
 		<Item Name="crio_RT_LAC_closed_loop.vi" Type="VI" URL="../crio_RT_LAC_closed_loop.vi"/>
 		<Item Name="crio_RT_Load_Cell.vi" Type="VI" URL="../crio_RT_Load_Cell.vi"/>
 		<Item Name="crio_RT_VCA.vi" Type="VI" URL="../crio_RT_VCA.vi"/>
+		<Item Name="crio_RT_VCA_Closed_Loop_Vibration_Injection.vi" Type="VI" URL="../crio_RT_VCA_Closed_Loop_Vibration_Injection.vi"/>
+		<Item Name="crio_RT_VCA_Closed_Loop_Vibration_Injection_Traj_ICRA.vi" Type="VI" URL="../crio_RT_VCA_Closed_Loop_Vibration_Injection_Traj_ICRA.vi"/>
 		<Item Name="crio_RT_VCA_force_sine_sweep.vi" Type="VI" URL="../crio_RT_VCA_force_sine_sweep.vi"/>
 		<Item Name="crio_RT_VCA_pos_sine_sweep.vi" Type="VI" URL="../crio_RT_VCA_pos_sine_sweep.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -5791,6 +5796,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="gpass2_FPGATarget2_crioFPGAAntagoni_uWzRZvtrb5U.lvbitx" Type="Document" URL="../On Call Bitfiles/gpass2_FPGATarget2_crioFPGAAntagoni_uWzRZvtrb5U.lvbitx"/>
 			<Item Name="gpass2_FPGATarget2_crioFPGAAntagoni_YEb8loNiaqg.lvbitx" Type="Document" URL="../On Call Bitfiles/gpass2_FPGATarget2_crioFPGAAntagoni_YEb8loNiaqg.lvbitx"/>
 			<Item Name="gpass2_FPGATarget2_crioFPGAPWMeffic_pZbzPKfzVSQ.lvbitx" Type="Document" URL="../On Call Bitfiles/gpass2_FPGATarget2_crioFPGAPWMeffic_pZbzPKfzVSQ.lvbitx"/>
 			<Item Name="gpass2_FPGATarget2_crioFPGAVCAForce_3uZNQ5RKazA.lvbitx" Type="Document" URL="../On Call Bitfiles/gpass2_FPGATarget2_crioFPGAVCAForce_3uZNQ5RKazA.lvbitx"/>
