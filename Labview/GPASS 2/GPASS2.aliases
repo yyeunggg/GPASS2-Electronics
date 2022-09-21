@@ -1,12 +1,21 @@
+[cRIO-9073-new]
+cRIO-9073-new = "10.2.58.161"
+
 [My Computer]
 My Computer = "10.58.0.90"
 
 [myRIO-1900]
 myRIO-1900 = "10.31.57.219"
 
+[NI-cRIO-9073]
+NI-cRIO-9073 = "10.2.58.180"
+
 [NI-cRIO-JSW]
 NI-cRIO-JSW = "10.2.58.190"
 
-[RT CompactRIO Target]
-RT CompactRIO Target = "0.0.0.0"
+[NI-cRIO-JSW-9073]
+NI-cRIO-JSW-9073 = "10.2.58.180"
+
+[NI-cRIO9073-new]
+NI-cRIO9073-new = "10.2.58.161"
 
